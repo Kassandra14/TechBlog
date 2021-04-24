@@ -1,17 +1,14 @@
 [
     {
-        "title": "Music Near Me",
-        "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-        "comment": 5000
+        "title": "What is MVC",
+        "comment": "model view controller still wondering what this is..."
     },
     {
-        "title": "Music Near Me",
-        "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-        "comment": 5000
+        "title": "Handlebars",
+        "comment": "this isan interesting way to generate html pages on demand."
     },
     {
-        "title": "Music Near Me",
-        "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-        "comment": 5000
+        "title": "CSS",
+        "comment": "Why is css so hard." 
     }
-  ]
+]
