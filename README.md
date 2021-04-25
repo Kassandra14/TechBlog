@@ -32,8 +32,8 @@ WHEN I click on the logout option in the navigation
 
 ## Links
 
-Deployed Application : 
-Heroku:
-GitHub repository URL:
+* Deployed Application : 
+* Heroku:
+* GitHub repository URL:
 
 
