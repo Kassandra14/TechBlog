@@ -24,15 +24,26 @@ router.delete('/:id', withAuth, async (req, res) => {
       },
     });
 
-    if (!blogData) {
-      res.status(404).json({ message: 'No blog found with this id!' });
-      return;
-    }
+  //  if (!blogData) {
+  //    res.render("Blog");
+      //res.status(404).json({ message: 'No blog found with this id!' });
+      //return;
+  //  }
 
-    res.status(200).json(blogData);
+  //   res.status(200).json(blogData);
+  // } catch (err) {
+  //   res.status(500).json(err);
+  // }
+
+  res.render('blog', { 
+    blogs, 
+    logged_in: req.session.logged_in 
+  });
+  
   } catch (err) {
-    res.status(500).json(err);
+  res.status(500).json(err);
   }
+  
 });
 
 module.exports = router;
